@@ -26,7 +26,7 @@ This project is a landing page of a coffee retail outlet. It is a purely respons
     - Materialize CSS
     - JS
     - Jquery
-- Deployed on *Netlify*  **[ClickMe]()** 
+- Deployed on *Netlify*  **[ClickMe](https://coffee-king.netlify.app/)** 
 *** 
 #### About Author
 ![AuthorImage](./circle-profile-pic.png)
