@@ -1,0 +1,17 @@
+{
+  "name": "coffee-king-landing-page",
+  "version": "2.0.1",
+  "description": "This is a landing page for a coffee outlet, full responsive",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "media-query",
+    "materialize-css"
+  ],
+  "author": "Pritam Pal",
+  "license": "ISC"
+}

@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bree Serif', serif;
+    font-family: 'Pacifico', cursive;
+}
+
+/* NavPart */
+.nav-wrapper{
+    font-family: 'Bree Serif', serif;
+    background-color: #2e241c;
+}
+
+.sidenav-style li a{
+    color: #311a0a;
+}
+
+.brand-logo{
+    margin-left: 2%;
+}
+.full-nav{
+    margin-right: 40px;
+}
+
+.brand-logo:hover{
+    animation:fadeInBounce 1s ease-in-out 2;
+}
+
+/* Coffe king nav animation */
+@keyframes fadeInBounce {
+    0%{
+        opacity: 0;
+        transform: translateY(-4px),rotate(180deg);
+    }
+    80%{
+        opacity: .5;
+        transform: translateY(-2px),rotate(220deg)
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+/* Slider section */
+.slider{
+    background-color: #2e241c;
+}
+
+
+.below-descp{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.slider .indicators{
+    padding-bottom: 10px;
+}
+
+.slider .indicators .indicator-item{
+    height: 10px;
+    width: 5px;
+}
+
+.slider .indicators .indicator-item.active{
+    background-color: #845e42;
+    height: 10px;
+    width: 5px;
+}
+.move-me{
+margin-top: 120px;
+font-family: 'Bree Serif', serif;
+}
+
+.move-img{
+    margin-top: 20px;
+}
+
+.card-title{
+    font-family: 'Bree Serif', serif;
+}
+.boc-card{
+    box-shadow: 5px 3px 20px #6F4E37;
+    border-radius: 30px;
+}
+/* Parallax section */
+.parallax-container{
+    min-height: 280px;
+    height: auto;
+}
+
+.descrip-about{
+    font-family: 'Bree Serif', serif;
+}
+.read-btn{
+    margin-top: 20px;
+    box-shadow: 0px 3px 10px #2e241c;
+}
+/* Services icons */
+.icon-coffee{
+    color: #5a402d;
+    cursor: grab;
+    
+}
+.icon-coffee:hover{
+    animation: rotateMe 1.5s;
+}
+
+@keyframes rotateMe {
+    0%{
+        opacity: 0.5;
+        transform: rotate(360deg);
+    }
+
+    60%{
+        opacity: 0.75;
+        transform: rotateX(180deg);
+    }
+    80%{
+        opacity: .9;
+        transform: rotateX(90deg);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+
+.icon-headings{
+    color: #5a402d;
+}
+.fservices{
+    margin-top: 40px;
+}
+
+/* footer section  */
+.footer-one{
+    background: #38281d;
+}
+
+.footer-two{
+    background: #090604;
+}
+
+
+.infomodal h4,a{
+    font-family: 'Bree Serif', serif;
+}
+
+.btn-small{
+    background-color: #311a0a;
+}
+
+.btn-small:hover{
+    background-color: #6F4E37;
+}
+
+/* Color Change */
+
+/* cards icons */
+.card .card-content .card-title i{
+    color:#845e42;
+}
+
+.card .card-reveal{
+    background-color: #38281d;
+}
+
+/* Footer icons and text */
+.social-media-text{
+    position: relative;
+    bottom: 10px;
+}
+
+.icon-color{
+    color: #ffffff;
+}
+
+.contact-icons{
+    position: relative;
+    top: 10px;
+    right: 6px;
+}
+.footer-two-company{
+    margin-left: 700px;
+}
+
+.footer-two-explaination{
+   margin-left: 220px;
+}
+
