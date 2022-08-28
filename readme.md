@@ -5,7 +5,13 @@
 ![ImageThumbnail](./thumbnail.png)
 ***
 ### Project details
-This project is a landing page of a coffee retail outlet. It is a purely responsive design , created for Desktop , mobile , and tablet usage. Only UI is developed for this project for this project, functionality is not .  
+This project is a landing page of a coffee retail outlet. It is a purely responsive design , created for Desktop , mobile , and tablet usage. Only UI is developed for this project for this project, functionality is not.  
+ Screen sizes
+- Mobile(425px)
+- Tablet(768px)
+- Laptop(Full width)
+- In general all screens
+
 **It is coded using Materialize CSS** 
 
 
